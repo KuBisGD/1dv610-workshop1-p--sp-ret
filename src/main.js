@@ -7,7 +7,7 @@ import { getLine } from './console-input.js'
 const main = async () => {
   console.log('På spåret')
 
-  const inp = await getLine('test input:')
+  const inp = await getLine('test input:\n')
   console.log(inp)
 }
 
