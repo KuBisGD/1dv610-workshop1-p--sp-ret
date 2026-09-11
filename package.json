@@ -1,0 +1,34 @@
+{
+  "name": "w1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "quiz"
+  ],
+  "homepage": "https://github.com/KuBisGD/1dv610-workshop1-p--sp-ret#readme",
+  "bugs": {
+    "url": "https://github.com/KuBisGD/1dv610-workshop1-p--sp-ret/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuBisGD/1dv610-workshop1-p--sp-ret.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@lnu/eslint-config": "^2.0.13",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.10.0",
+    "eslint-plugin-jsdoc": "^63.3.3",
+    "eslint-plugin-n": "^18.3.0",
+    "eslint-plugin-regexp": "^3.3.0",
+    "eslint-plugin-security": "^4.0.1",
+    "globals": "^17.12.0"
+  }
+}
