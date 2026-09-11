@@ -1,1 +1,134 @@
-[]
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Vilket år skapades programmeringsspråket JavaScript?",
+      "options": ["1990", "1995", "2000", "2005"],
+      "correctAnswer": "1995",
+      "category": "Historia",
+      "hints": [
+        "Det var mitten av 90-talet.",
+        "Skapades av Brendan Eich på Netscape.",
+        "Samma år som Netscape Navigator 2.0 släpptes."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Vad står HTML för?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Hyper Transfer Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "correctAnswer": "Hyper Text Markup Language",
+      "category": "Webbutveckling",
+      "hints": [
+        "Det handlar om att strukturera text med länkar (\"hyper text\").",
+        "Andra bokstaven, T, står för Text.",
+        "Sista ordet är Language."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Vilken tidskomplexitet har binär sökning?",
+      "options": ["O(n)", "O(n^2)", "O(log n)", "O(1)"],
+      "correctAnswer": "O(log n)",
+      "category": "Algoritmer",
+      "hints": [
+        "Algoritmen halverar sökområdet vid varje steg.",
+        "Det är snabbare än linjär sökning, O(n).",
+        "Svaret innehåller en logaritm."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Vilket av följande är INTE ett objektorienterat programmeringsspråk?",
+      "options": ["Java", "Python", "C#", "SQL"],
+      "correctAnswer": "SQL",
+      "category": "Programmeringsspråk",
+      "hints": [
+        "De tre andra alternativen används för att skriva applikationslogik.",
+        "Detta språk används främst för att hantera databaser.",
+        "Det står för Structured Query Language."
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Vad kallas processen att hitta och åtgärda fel i kod?",
+      "options": ["Compiling", "Debugging", "Deploying", "Refactoring"],
+      "correctAnswer": "Debugging",
+      "category": "Grundläggande begrepp",
+      "hints": [
+        "Ordet kommer från engelskans \"bug\", som betyder fel i kod.",
+        "Många utvecklarmiljöer har ett speciellt läge för detta, en \"debugger\".",
+        "Ordet börjar på De- och slutar på -ing."
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Vilken datastruktur följer principen LIFO (Last In, First Out)?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "correctAnswer": "Stack",
+      "category": "Datastrukturer",
+      "hints": [
+        "Tänk på en trave tallrikar — man tar alltid den översta först.",
+        "Används bland annat för att hålla koll på funktionsanrop (call stack).",
+        "Ordet betyder \"trave\" eller \"hög\" på svenska."
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Vad används CSS till?",
+      "options": [
+        "Att strukturera innehåll",
+        "Att styla och layouta webbsidor",
+        "Att hantera serverlogik",
+        "Att skapa databaser"
+      ],
+      "correctAnswer": "Att styla och layouta webbsidor",
+      "category": "Webbutveckling",
+      "hints": [
+        "Det handlar inte om innehåll, utan om utseende.",
+        "Förkortningen står för Cascading Style Sheets.",
+        "Det är detta som ger en webbsida färger, typsnitt och layout."
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Vilket versionshanteringssystem är mest använt bland utvecklare idag?",
+      "options": ["SVN", "Mercurial", "Git", "CVS"],
+      "correctAnswer": "Git",
+      "category": "Verktyg",
+      "hints": [
+        "Skapades av Linus Torvalds, samme person som skapade Linux.",
+        "GitHub och GitLab bygger på detta verktyg.",
+        "Namnet är tre bokstäver långt och börjar på G."
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Vad kallas en funktion som anropar sig själv?",
+      "options": ["Iteration", "Rekursion", "Delegation", "Instansiering"],
+      "correctAnswer": "Rekursion",
+      "category": "Grundläggande begrepp",
+      "hints": [
+        "Motsatsen till detta är ofta en loop (iteration).",
+        "Behöver ett basfall (base case) för att inte köra i oändlighet.",
+        "Ordet börjar på Re- och handlar om att upprepa något via sig själv."
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Vilket av dessa är en NoSQL-databas?",
+      "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      "correctAnswer": "MongoDB",
+      "category": "Databaser",
+      "hints": [
+        "De tre andra alternativen är relationsdatabaser som använder tabeller.",
+        "Denna databas lagrar data som dokument, ofta i JSON-liknande format.",
+        "Namnet börjar på Mongo, som i \"humongous\" (enormt stort)."
+      ]
+    }
+  ]
+}
