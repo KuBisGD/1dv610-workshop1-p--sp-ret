@@ -16,6 +16,11 @@ class Player {
    */
   #points
 
+  /**
+   * Create a new quiz player.
+   * 
+   * @param {string} name The players name.
+   */
   constructor (name) {
     this.#name = name.trim()
     this.#points = 0
