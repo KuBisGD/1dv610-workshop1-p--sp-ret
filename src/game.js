@@ -36,6 +36,7 @@ class Game {
     console.log(`Loaded ${this.#questions.length} questions.`)
     await this.loadPlayers()
     console.log(`Loaded ${this.#players.getPlayerCount()} players.`)
+    this.runQuestions(this.#questions[0].question, this.#questions[0].options, this.#questions[0].hints)
   }
 
   /**
