@@ -19,6 +19,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node ./src/main.js",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
